@@ -51,11 +51,13 @@ public class MainActivity extends AppCompatActivity {
         btnGetall.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                arrayList = databaseHelper.getAllStudentsList();
-                tvnames.setText("");
-                for (int i = 0; i < arrayList.size(); i++){
-                    tvnames.setText(tvnames.getText().toString()+", "+arrayList.get(i));
-                }
+//                arrayList = databaseHelper.getAllStudentsList();
+//                tvnames.setText("");
+//                for (int i = 0; i < arrayList.size(); i++){
+//                    tvnames.setText(tvnames.getText().toString()+", "+arrayList.get(i));
+//                }
+                Intent myIntent = new Intent(context, VideoActivity.class);
+                startActivity(myIntent);
             }
         });
     }

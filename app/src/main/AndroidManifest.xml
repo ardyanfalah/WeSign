@@ -11,6 +11,8 @@
         android:theme="@style/AppTheme">
         <activity android:name=".MainActivity">
         </activity>
+        <activity android:name=".VideoActivity">
+        </activity>
         <activity
             android:name=".SplashActivity"
             android:theme="@style/Theme.AppCompat.NoActionBar">
