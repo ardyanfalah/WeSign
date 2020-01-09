@@ -80,20 +80,86 @@ public class MainActivity extends AppCompatActivity {
                         switch (alphabet) {
                             case "a":
                                 imageView1.setImageResource(R.drawable.finger_a);
-                                linearLayout.addView(imageView1);
                                 break;
                             case "b":
                                 imageView1.setImageResource(R.drawable.finger_b);
-                                linearLayout.addView(imageView1);
                                 break;
                             case "c":
                                 imageView1.setImageResource(R.drawable.finger_c);
-                                linearLayout.addView(imageView1);
+                                break;
+                            case "d":
+                                imageView1.setImageResource(R.drawable.finger_d);
+                                break;
+                            case "e":
+                                imageView1.setImageResource(R.drawable.finger_e);
+                                break;
+                            case "f":
+                                imageView1.setImageResource(R.drawable.finger_f);
+                                break;
+                            case "g":
+                                imageView1.setImageResource(R.drawable.finger_g);
+                                break;
+                            case "h":
+                                imageView1.setImageResource(R.drawable.finger_h);
+                                break;
+                            case "i":
+                                imageView1.setImageResource(R.drawable.finger_i);
+                                break;
+                            case "j":
+                                imageView1.setImageResource(R.drawable.finger_j);
+                                break;
+                            case "k":
+                                imageView1.setImageResource(R.drawable.finger_k);
+                                break;
+                            case "l":
+                                imageView1.setImageResource(R.drawable.finger_l);
+                                break;
+                            case "m":
+                                imageView1.setImageResource(R.drawable.finger_m);
+                                break;
+                            case "n":
+                                imageView1.setImageResource(R.drawable.finger_n);
+                                break;
+                            case "o":
+                                imageView1.setImageResource(R.drawable.finger_o);
+                                break;
+                            case "p":
+                                imageView1.setImageResource(R.drawable.finger_p);
+                                break;
+                            case "q":
+                                imageView1.setImageResource(R.drawable.finger_q);
+                                break;
+                            case "r":
+                                imageView1.setImageResource(R.drawable.finger_r);
+                                break;
+                            case "s":
+                                imageView1.setImageResource(R.drawable.finger_s);
+                                break;
+                            case "t":
+                                imageView1.setImageResource(R.drawable.finger_t);
+                                break;
+                            case "u":
+                                imageView1.setImageResource(R.drawable.finger_u);
+                                break;
+                            case "v":
+                                imageView1.setImageResource(R.drawable.finger_v);
+                                break;
+                            case "w":
+                                imageView1.setImageResource(R.drawable.finger_w);
+                                break;
+                            case "x":
+                                imageView1.setImageResource(R.drawable.finger_x);
+                                break;
+                            case "y":
+                                imageView1.setImageResource(R.drawable.finger_y);
+                                break;
+                            case "z":
+                                imageView1.setImageResource(R.drawable.finger_z);
                                 break;
                             default:
                                 imageView1.setImageResource(R.drawable.wesign);
-                                linearLayout.addView(imageView1);
                         }
+                        linearLayout.addView(imageView1);
                     }
                 }
 
